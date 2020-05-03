@@ -1,0 +1,56 @@
+/*card*/
+.card {
+  background-color: #050A27;
+}
+
+/*nav*/
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav, a {
+  margin-top: -5px;
+  text-transform: uppercase;
+  color: white !important; 
+}
+
+a.active {
+  color: #475CFD !important;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #475CFD !important;
+}
+
+
+/*main*/
+.main {
+  color: white;
+}
+
+.main h1 span {
+  font-weight: 500;
+  color: #475CFD;
+}
+
+.main p {
+  font-size: 20px;
+}
+
+.main button {
+  background-color: #FF4887;
+  color: white;
+}
+
+.card-body {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-img {
+  position: absolute;
+  bottom: -100px;
+  right: -50px;
+  width: 42%;
+}
